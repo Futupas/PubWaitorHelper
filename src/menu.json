@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "Beer Kozel dark",
+        "description": "just dark beer",
+        "timeToCook": "1m",
+        "photo": "https://media.danmurphys.com.au/dmo/product/907769-1.png",
+        "sizes": [
+            {
+                "id": 1,
+                "size": "0.5l",
+                "price": 20,
+                "additions": [
+                    {
+                        "title": "add1",
+                        "description": "add1 desc",
+                        "priceChanger": 5
+                    }, {
+                        "title": "add2",
+                        "description": "add2 desc",
+                        "priceChanger": -5
+                    }
+                ]
+            }, {
+                "id": 2,
+                "size": "0.33l",
+                "price": 15
+            }, {
+                "id": 2,
+                "size": "1l",
+                "price": 25
+            }
+        ]
+    }
+]
